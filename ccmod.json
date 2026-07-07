@@ -6,6 +6,5 @@
 	"repository": "https://github.com/quietype/qt-refund-circuits",
 	"authors": ["EpicYoshiMaster", "QuieType"],
 	"tags": ["QoL"],
-	"prestart": "prestart.js",
-	"main": "main.js"
+	"prestart": "prestart.js"
 }
