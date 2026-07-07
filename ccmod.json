@@ -1,0 +1,11 @@
+{
+	"id": "qt-refund-circuits",
+	"version": "1.0.0",
+	"title": "Refund Circuits",
+	"description": "Allows refunding cp and undoing circuit purchases (without the choice of fully editing trees), using code copied from EpicYoshiMaster's mod.",
+	"repository": "https://github.com/quietype/qt-refund-circuits",
+	"authors": ["EpicYoshiMaster", "QuieType"],
+	"tags": ["QoL"],
+	"prestart": "prestart.js",
+	"main": "main.js"
+}
