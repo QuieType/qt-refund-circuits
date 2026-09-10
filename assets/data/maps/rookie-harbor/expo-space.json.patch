@@ -1,0 +1,26 @@
+[
+	{ "type": "ENTER", "index": ["entities", 10, "settings","event"] },
+	{ 
+		"type": "ADD_ARRAY_ELEMENT", 
+		"index": 43, 
+		"content": 
+		{
+			"message": {
+				"en_US": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so.",
+				"de_DE": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so.",
+				"zh_CN": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so.",
+				"ja_JP": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so.",
+				"ko_KR": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so.",
+				"langUid": null,
+				"zh_TW": "However, due to a \\c[3]mod\\c[0] you have installed that allows you to freely refund circuits, there is really  \\c[3]no reason to do so."
+			},
+			"autoContinue": false,
+			"type": "SHOW_MSG",
+			"person": {
+				"person": "advisors.general",
+				"expression": "OFFLINE"
+			}
+		}
+	},
+	{ "type": "EXIT", "count": 2 }
+]
