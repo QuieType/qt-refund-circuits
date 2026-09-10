@@ -3,6 +3,7 @@
 	{ 
 		"type": "ADD_ARRAY_ELEMENT", 
 		"index": 43, 
+		"_comment": "Add text after Temple Mine circuit override explanation",
 		"content": 
 		{
 			"message": {
@@ -22,5 +23,28 @@
 			}
 		}
 	},
-	{ "type": "EXIT", "count": 2 }
+	{ 
+		"type": "ADD_ARRAY_ELEMENT", 
+		"index": 44, 
+		"content": 
+		{
+			"message": {
+				"en_US": "...",
+				"de_DE": "...",
+				"fr_FR": "fr_FR",
+				"zh_CN": "... <<C<<[CN CHANGED 2017/11/17]",
+				"ja_JP": "...<<A<<[CHANGED 2017/08/03]",
+				"langUid": 64,
+				"ko_KR": "...",
+				"zh_TW": "... <<C<<[CN CHANGED 2017/11/17]"
+			},
+			"autoContinue": false,
+			"type": "SHOW_MSG",
+			"person": {
+				"person": "main.lea",
+				"expression": "ANNOYED"
+			}
+		}
+	},
+	{ "type": "EXIT", "count": 4 }
 ]
